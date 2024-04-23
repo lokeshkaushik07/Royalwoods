@@ -10,7 +10,7 @@ body {
   width: 125px;
 }
 .form-container {
-    width: 320px;
+    width: 300px;
     border-radius: 0.75rem;
     background-color: rgba(17, 24, 39, 1);
     padding: 3rem;
@@ -27,7 +27,7 @@ body {
   }
   
   .form {
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
   }
   
   .input-group {
