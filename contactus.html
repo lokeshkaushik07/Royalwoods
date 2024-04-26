@@ -1,51 +1,70 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Contact Us Form</title>
 
+    <link rel="stylesheet" href="contactus.css" />
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-xs-12">
+        <div id="left">
+          <h1>Contact Us</h1>
 
-    <link rel="stylesheet" href="contactus.css">
-
-</head>
-<body>
-
-
-
-<div class="row">
-<div class="col-xs-12">
-    <div id="left">
-
-        <h1>Contact Us</h1>
-
-        <div class="formbox">
+          <div class="formbox">
             <form>
-                <input name="name" type="text" class="short" placeholder="Name" onfocus="this.placeholder=''" onblur="this.placeholder='Name'"/>
-                <input name="email" type="text" class="short" placeholder="Email" onfocus="this.placeholder=''" onblur="this.placeholder='Email'"/>
-                <input name="subject" type="text" class="feedback-input" placeholder="Subject" onfocus="this.placeholder=''" onblur="this.placeholder='Subject'"/>
-                <textarea name="text" class="feedback-input" placeholder="Message" onfocus="this.placeholder=''" onblur="this.placeholder='Message'"></textarea>
-                <input type="submit" value="SEND"/>
+              <input
+                name="name"
+                type="text"
+                class="short"
+                placeholder="Name"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Name'"
+              />
+              <input
+                name="email"
+                type="text"
+                class="short"
+                placeholder="Email"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Email'"
+              />
+              <input
+                name="subject"
+                type="text"
+                class="feedback-input"
+                placeholder="Subject"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Subject'"
+              />
+              <textarea
+                name="text"
+                class="feedback-input"
+                placeholder="Message"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Message'"
+              ></textarea>
+              <input type="submit" value="SEND" />
             </form>
 
             <h6>Team WoodWorld</h6>
-
+          </div>
         </div>
 
-        </div>
-
+        <!-- <div id="right">
+          <div id="map"></div>
+        </div> -->
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d54994.805814997235!2d76.61857802524901!3d30.51608002020276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x390fc32344a6e2d7%3A0x81b346dee91799ca!2sgoogle%20maps%20chitkara%20university!3m2!1d30.5160865!2d76.6597778!5e0!3m2!1sen!2sin!4v1714156243616!5m2!1sen!2sin"
+        width="50%"
+        height="100%"
+        style="border:2px"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </div>
-
-    <div id="right">
-        <div id="map">
-
-        </div>
-       
-    <div id="cleared"></div>
-
-</div>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDts9C9iWNF83ExezBXJLIJ0g2dwoERg08&callback=initMap"
-        async defer />
-        <script src="contactus.js"></script>
-</body>
+    <script src="contactus.js"></script>
+  </body>
 </html>
-
