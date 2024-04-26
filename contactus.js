@@ -107,5 +107,3 @@
     </script>
     <!-- Include Google Maps API script -->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
-</body>
-</html>
