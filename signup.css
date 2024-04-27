@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(240, 240, 240);
+  background-image: linear-gradient(to right, #78f5ae, #fa32cc);
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -8,11 +8,14 @@ body {
 h1 {
   text-align: center;
   margin-top: 30px;
+  font-size: 52px; /* Increase text size */
+  color: white; /* Change text color to white */
+  padding: 10px; /* Optional: Add padding around the text */
 }
 
 form {
-  border: 2px solid #ccc;
-  background-color: #f1cbcb;
+  border: 2px solid #a580eb;
+  background-color: rgb(189, 139, 255);
   width: 400px;
   margin: 0 auto;
   padding: 20px;
@@ -29,7 +32,7 @@ input[type="email"],
 input[type="password"] {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #f4efef;
   border-radius: 4px;
   box-sizing: border-box;
   margin-bottom: 20px;
