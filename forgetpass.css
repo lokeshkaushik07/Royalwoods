@@ -59,8 +59,8 @@ body {
   animation: pulse 1s infinite ease;
 }
 .row .form-group button {
-  border: 1px solid #fff;
-  border-radius: 5px;
+  border: 1px solid #fd0303;
+  border-radius: 10px;
   outline: none;
   -moz-user-select: none;
   user-select: none;
