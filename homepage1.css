@@ -1,0 +1,119 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Styling sections */
+  section {
+    padding: 20px;
+  }
+  
+  #featured-products {
+    background-color: #f9f9f9;
+  }
+  
+  .product1, .product2 {
+    margin-bottom: 30px;
+  }
+  
+  .product1 img, .product2 img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product1 h3, .product2 h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product1 p, .product2 p {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .product1 h4, .product2 h4 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Styling why-choose section */
+  #why-choose {
+    background-color: #f5f5f5;
+  }
+  
+  #why-choose ul {
+    list-style: none;
+  }
+  
+  #why-choose ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling testimonials section */
+  #testimonials {
+    background-color: #e5e5e5;
+    padding: 30px 20px;
+  }
+  
+  blockquote {
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling newsletter section */
+  #newsletter {
+    background-color: #ddd;
+    padding: 30px 20px;
+  }
+  
+  #newsletter p {
+    margin-bottom: 20px;
+  }
+  
+  #newsletter input[type="email"] {
+    padding: 10px;
+    width: 200px;
+  }
+  
+  #newsletter button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #newsletter button:hover {
+    background-color: #555;
+  }
+  
+    
