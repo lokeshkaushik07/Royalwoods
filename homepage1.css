@@ -13,7 +13,8 @@ header {
 }
 
 header h1 {
-  font-size: 24px;
+  font-size: 36px;
+  text-transform: uppercase;
 }
 
 nav ul {
@@ -28,11 +29,17 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
 }
 
 /* Styling sections */
 section {
-  padding: 20px;
+  padding: 40px 20px;
 }
 
 #featured-products {
@@ -40,34 +47,42 @@ section {
 }
 
 .product1, .product2 {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .product1 img, .product2 img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product1 img:hover, .product2 img:hover {
+  transform: scale(1.05);
 }
 
 .product1 h3, .product2 h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .product1 p, .product2 p {
-  color: #444;
-  line-height: 1.6;
-  margin-bottom: 10px;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 20px;
 }
 
 .product1 h4, .product2 h4 {
-  font-size: 18px;
+  font-size: 20px;
   color: #333;
 }
 
 /* Styling why-choose section */
 #why-choose {
   background-color: #f5f5f5;
+  padding: 60px 20px;
 }
 
 #why-choose ul {
@@ -75,41 +90,50 @@ section {
 }
 
 #why-choose ul li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
 /* Styling testimonials section */
 #testimonials {
   background-color: #e5e5e5;
-  padding: 30px 20px;
+  padding: 60px 20px;
 }
 
 blockquote {
   font-style: italic;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-size: 24px;
 }
 
 /* Styling newsletter section */
 #newsletter {
   background-color: #ddd;
-  padding: 30px 20px;
+  padding: 60px 20px;
 }
 
 #newsletter p {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-size: 20px;
 }
 
 #newsletter input[type="email"] {
-  padding: 10px;
-  width: 200px;
+  padding: 15px;
+  width: 300px;
+  font-size: 18px;
+  border: 2px solid #777;
+  border-radius: 8px;
 }
 
 #newsletter button {
-  padding: 10px 20px;
+  padding: 15px 30px;
   background-color: #333;
   color: #fff;
   border: none;
+  border-radius: 8px;
   cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
 }
 
 #newsletter button:hover {
@@ -119,8 +143,9 @@ blockquote {
 /* Styling footer */
 footer {
   background-color: #333;
-  padding: 20px;
+  padding: 40px 20px;
   text-align: center;
+  color: #fff;
 }
 
 footer ul {
@@ -135,4 +160,10 @@ footer ul li {
 footer ul li a {
   color: #fff;
   text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #ffd700;
 }
