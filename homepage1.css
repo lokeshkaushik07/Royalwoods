@@ -2,8 +2,15 @@
 body, h1, h2, h3, h4, h5, h6, p, ul, li {
   margin: 0;
   padding: 0;
+  
 }
+body{
+  background-image: url(background1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 
+}
 /* Styling header */
 header {
   background: linear-gradient(135deg, #333 0%, #444 100%);
@@ -55,7 +62,7 @@ section {
   margin-bottom: 50px;
 }
 
-.product1 img, .product2 img, .product3 img ,.{
+.product1 img, .product2 img, .product3 img ,.product4{
   max-width: 50%;
   height: auto;
   margin-bottom: 10px;
